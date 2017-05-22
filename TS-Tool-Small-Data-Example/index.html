@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Dygraphs TS Tool Small Data Example</title>
+  <!-- Javascript -->
+  <script type="text/javascript" src="javascript/dygraph.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/dygraphs.css" />
+</head>
+
+<body>
+  <div id="graphdiv"></div>
+  <script>
+    g = new Dygraph(
+
+    // containing div
+    document.getElementById("graphdiv"),
+    "data-files/small-precip-data.csv",
+    {
+      rollPeriod: 7,
+      showRoller: true,
+      title: 'Precipitation',
+      ylabel: 'Inches (in)',
+      xlabel: 'Day',
+      legend: 'always',
+      height: 600,
+      width: 1500,
+      axisLabelFontSize: 20,
+      showRangeSelector: true
+    }
+  );
+</script>
+</body>
+</html>

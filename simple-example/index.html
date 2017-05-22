@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Dygraphs Simple Example</title>
+  <!-- Javascript -->
+  <script type="text/javascript" src="javascript/dygraph.min.js"></script>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/dygraphs.css" />
+</head>
+
+<body>
+  <div id="graphdiv"></div>
+  <script>
+    g = new Dygraph(
+
+    // containing div
+    document.getElementById("graphdiv"),
+
+    // CSV or path to a CSV file.
+    "X,Series 1, Series 2, Series 3\n" +
+    "1,90,120,300\n"+
+    "2,40,160,240\n"+
+    "3,50,200,290\n"+
+    "4,120,null,230\n"+
+    "5,80,130,300\n"+
+    "6,90,220,320\n"+
+    "7,110,160,330\n",
+    {
+      title: 'Simple Chart Example',  // Title of Chart
+      xlabel: 'X-AXIS', // X-Axis Label
+      ylabel: 'Y-AXIS', // Y-Axis Label
+      rollPeriod: 7,  // Each point represents an average of the number of timestamps specified
+      showRoller: true, // Rolling Average text box shown
+      legend: 'always', // always show the legend
+      height: 600,  // height of chart
+      width: 1500,  // width of chart
+      axisLabelFontSize: 20,  // font size of labels for x and y axis
+      showRangeSelector: true // show range selector below chart
+    }
+
+  );
+</script>
+</body>
+</html>
