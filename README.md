@@ -31,6 +31,17 @@ See also:
 
 ** **Note** the data below each station is the amount of precipitation that occured that day. 
 
+## NOTES
+
+* Dygraph charts had issues with being mobile friendly when using bootstrap on the html page. Refer to [Bootstrap Repo](https://github.com/OpenWaterFoundation/owf-lib-viz-bootstrap-js) for workaround.
+* Found this forum on Google Code that talks about this issue. [Google Code](https://code.google.com/archive/p/dygraphs/issues/238).
+* Requires small amount of code to implement 
+* Provides examples and documentation
+* Open Source
+* Free
+* Has a good release history
+* Actively developed
+
 ## What is a Timeseries Graph
 
 Timeseries, also known as Line Graphs, are used to display quantitative value over a continuous interval or time span. It is most frequently used to show trends and relationships (when grouped with other lines). Line Graphs also help to give a "big picture" over an interval, to see how it has developed over that period.
@@ -40,4 +51,4 @@ Line Graphs are drawn by first plotting data points on a Cartesian coordinate gr
 For more information refer to the links below:
 
 * [Timeseries Graph](http://www.datavizcatalogue.com/methods/line_graph.html)
-* [Timeseries Documenation](https://developers.google.com/chart/interactive/docs/gallerycd ../linechart)
+* [Timeseries Documenation](https://developers.google.com/chart/interactive/docs/gallery/linechart)
