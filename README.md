@@ -12,7 +12,7 @@ A standard development folder structure is recommended. The website development 
 > cd Dygraphs-JS
 > mkdir git-repos
 > cd git-repos
-> git clone (URL)
+> git clone https://github.com/OpenWaterFoundation/owf-lib-viz-dygraphs-js
 ``` 
 The repository contains multiple folders that include time series examples using different sets of data.
 ## Additional Documentation
@@ -40,4 +40,4 @@ Line Graphs are drawn by first plotting data points on a Cartesian coordinate gr
 For more information refer to the links below:
 
 * [Timeseries Graph](http://www.datavizcatalogue.com/methods/line_graph.html)
-* [Timeseries Documenation](https://developers.google.com/chart/interactive/docs/gallerycd ../linechart)w
+* [Timeseries Documenation](https://developers.google.com/chart/interactive/docs/gallerycd ../linechart)
