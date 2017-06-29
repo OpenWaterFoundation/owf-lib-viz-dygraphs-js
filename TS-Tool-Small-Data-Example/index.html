@@ -16,16 +16,16 @@
     document.getElementById("graphdiv"),
     "data-files/small-precip-data.csv",
     {
-      rollPeriod: 7,
-      showRoller: true,
-      title: 'Precipitation',
-      ylabel: 'Inches (in)',
-      xlabel: 'Day',
-      legend: 'always',
-      height: 600,
-      width: 1500,
-      axisLabelFontSize: 20,
-      showRangeSelector: true
+      rollPeriod: 7,  // each point represents an average of the number of timestamps specified
+      showRoller: true, // rolling average text box shown
+      title: 'Precipitation', // title of chart
+      ylabel: 'Inches (in)',  // y-axis label
+      xlabel: 'Day',  // x-axis label
+      legend: 'always', // always show the legend
+      height: 600,  // height of chart
+      width: 1500,  // width of chart
+      axisLabelFontSize: 20,  // font size of labels for x and y axis
+      showRangeSelector: true // show range selector below chart
     }
   );
 </script>
